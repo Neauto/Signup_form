@@ -1,129 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-
-body{
-    background-color: #8d01ff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    min-height: 100vh;
+body {
+  background-color: #8d01ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
 }
 
-.container{
-    width: 400px;
-    background-color: #fff;
-    padding: 15px;
-    font-weight: bold;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    max-width: 100%;
-    margin: 15px;
+.container {
+  width: 400px;
+  background-color: #fff;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  margin: 15px;
 }
 
-.header{
-    padding: 5px 20px;
+.header {
+  padding: 5px 20px;
 }
 
-.header h2{
-    margin: 0;
+.header h2 {
+  margin: 0;
 }
 
-.submit{
-    position: relative;
-    width: 100%;
-    background-color: #8d01ff;
-    border: 2px solid #8d01ff;
-    border-radius: 4px;
-    display: block;
-    padding: 8px;
-    font-size: 18px;
-    font-weight: bolder;
-    font-family: inherit;
-    color: #fff;
+.submit {
+  position: relative;
+  width: 100%;
+  background-color: #8d01ff;
+  border: 2px solid #8d01ff;
+  border-radius: 4px;
+  display: block;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: inherit;
+  color: #fff;
 }
 
-.form{
-    padding: 10px 20px;
+.form {
+  padding: 10px 20px;
 }
 
-.form-control{
-    margin-bottom: 8px;
-    padding-bottom: 15px;
-    position: relative;
+.form-control {
+  margin-bottom: 10px;
+  position: relative;
 }
 
-.form-control label{
-    display: inline-block;
-    margin-bottom: 5px;
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
-.form-control input{
-    border: 1px solid #bbbbbb;
-    border-radius: 4px;
-    display: block;
-    font-family: inherit;
-    font-size: 14px;
-    padding: 8px;
-    width: 100%;
-} 
+.form-control input {
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+}
 
 .form-control input:focus {
-	outline: 0;
-	border-color: #777;
+  outline: 0;
+  border-color: #777;
 }
 
 .form-control.success input {
-	border-color: #2ecc71;
+  border-color: #2ecc71;
 }
 
 .form-control.error input {
-	border-color: #e74c3c;
+  border-color: #e74c3c;
 }
 
 .form-control small {
-	color: #e74c3c;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	visibility: hidden;
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
 }
 
 .form-control.error small {
-    position: relative;
-	visibility: visible;
+  position: relative;
+  visibility: visible;
 }
 
-.gen{
-    margin-bottom: 20px;
+.gen {
+  margin-bottom: 20px;
 }
 
-.gen input{
-    margin: 10px 10px 10px 0px;
+.gen input {
+  margin: 10px 10px 10px 0px;
 }
 
 .gen small {
-	color: #e74c3c;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	visibility: hidden;
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
 }
 
 .gen.error small {
-    position: relative;
-	visibility: visible;
+  position: relative;
+  visibility: visible;
 }
 
 .gen.error input {
-	border-color: #e74c3c;
+  border-color: #e74c3c;
 }
 
 .gen.success input {
-	border-color: #2ecc71;
+  border-color: #2ecc71;
 }

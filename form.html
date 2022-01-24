@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-    <link rel="stylesheet" href="form.css">
-</head>
-<body>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-            <h2>Create Account</h2>
+      <div class="header">
+        <h2>Create Account</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label>Username</label>
+          <input type="text" placeholder="Username" id="username" />
+          <small>Error message</small>
         </div>
-        <form class="form" id="form">
-            <div class="form-control">
-            <label>Username</label>
-            <input type="text" placeholder="Username" id="username">
-            <small>Error message</small>
-            </div>
-            <div class="form-control">
-            <label>Email</label>
-            <input type="text" placeholder="Email" id="email">
-            <small>Error message</small>
-            </div>
-            <div class="form-control">
-            <label>Password</label>
-            <input type="text" placeholder="Password" id="password">
-            <small>Error message</small>
-            </div>
-            <div class="form-control">
-            <label>Re-Password</label>
-            <input type="text" placeholder="Re-Password" id="repassword">
-            <small>Error message</small>
-            </div>
-            <div class="gen">
-                <label>Select Gender</label><br>
-                <input type="radio" name="gender" id="b1">Male<br>
-                <input type="radio" name="gender" id="b2">Female<br>
-                <small>Error message</small>
-            </div>
-            <button onclick="checkInput();" class="submit">Submit</button>
-        </form>
+        <div class="form-control">
+          <label>Email</label>
+          <input type="text" placeholder="Email" id="email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label>Password</label>
+          <input type="text" placeholder="Password" id="password" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label>Re-Password</label>
+          <input type="text" placeholder="Re-Password" id="repassword" />
+          <small>Error message</small>
+        </div>
+        <div class="gen">
+          <label>Select Gender</label><br />
+          <input type="radio" name="gender" id="b1" />Male<br />
+          <input type="radio" name="gender" id="b2" />Female<br />
+          <small>Error message</small>
+        </div>
+        <button onclick="checkInput();" class="submit">Submit</button>
+      </form>
     </div>
     <script src="form.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-</body>
+  </body>
 </html>
